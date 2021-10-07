@@ -1,1 +1,1 @@
-https://munukutlas.github.io/Lab2/
+https://munukutlas.github.io/fa21-cse110-lab3/

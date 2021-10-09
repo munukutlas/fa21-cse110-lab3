@@ -15,14 +15,24 @@ h2 {
     border: 2px solid blue;
     margin-top: 1cm;
     margin-bottom: 1cm;
-    margin-left: 1cm;
-    margin-right: 1cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
     padding-top: 3mm;
     padding-bottom: 3mm;
-    padding-left: 3mm;
-    padding-right: 3mm;
+    padding-left: 4mm;
+    padding-right: 4mm;
     border-style: 2pt;
-    border-color: 2pt;
+    border-color: blueviolet;
+    border-width: 2pt;
+    border-radius: 2pt;
+}
+
+.brainstorming {
+    border: 2px solid palevioletred;
+    margin: 300px 300px 500px 500px;
+    padding: 100 px 100 px 300 px 300 px;
+    border-style: 2pt;
+    border-color: palevioletred;
     border-width: 2pt;
     border-radius: 2pt;
 }

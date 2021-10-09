@@ -48,6 +48,16 @@ p {
     display: block;
 }
 
-a[footer] {
+/* id selector, display, size, and position */
+#footer {
+    height: 3 cm;
+    width: 7 cm;
+    max-height: 5 cm;
+    max-width: 10 cm;
     display: inline-block;
+    position: static;
+}
+
+details {
+    position: sticky;
 }

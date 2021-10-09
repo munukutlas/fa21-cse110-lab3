@@ -35,7 +35,8 @@ a[class~="Brainstorming"] {
     margin: 300px 300px 500px 500px;
     padding: 100 px 100 px 300 px 300 px;
     border-style: 2pt;
-    border-color: palevioletred;
+    border-style: 2pt;
+    border-color: blueviolet;
     border-width: 2pt;
     border-radius: 2pt;
 }

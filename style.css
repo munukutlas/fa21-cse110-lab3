@@ -1,12 +1,28 @@
-.header {
-    background-color: 230, 230, 250;
+header {
+    background-color: rgb(230, 230, 250);
 }
 
-.h1 {
+h1 {
     background-color: #dda0dd;
 }
 
-.h2 {
+h2 {
     background-color: hsl(281, 44%, 70%, 1);
 }
 
+/* class selector, box model, long hand notation, different measurements */
+.last-meeting {
+    border: 2px solid blue;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    padding-top: 3mm;
+    padding-bottom: 3mm;
+    padding-left: 3mm;
+    padding-right: 3mm;
+    border-style: 2pt;
+    border-color: 2pt;
+    border-width: 2pt;
+    border-radius: 2pt;
+}

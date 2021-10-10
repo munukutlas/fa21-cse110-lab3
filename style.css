@@ -1,18 +1,23 @@
+
+/* element selector, background colors */
 header {
     background-color: rgb(230, 230, 250);
 }
 
-h1 {
+/* pseudo-class active */
+h1:active {
     background-color: #dda0dd;
 }
 
+/* position - sticky */
 h2 {
     background-color: hsl(281, 44%, 70%, 1);
+    position: sticky;
 }
 
-/* class selector, box model, long hand notation, different measurements */
+/* attribute selector, box model, long hand notation, different measurements */
 .last-meeting {
-    border: 2px solid blue;
+    border: 2px solid;
     margin-top: 1cm;
     margin-bottom: 1cm;
     margin-left: 2cm;
@@ -27,12 +32,48 @@ h2 {
     border-radius: 2pt;
 }
 
-.brainstorming {
-    border: 2px solid palevioletred;
+/* class selector, box model, short hand notation */
+.Brainstorming {
+    border: 5px solid palevioletred;
     margin: 300px 300px 500px 500px;
     padding: 100 px 100 px 300 px 300 px;
     border-style: 2pt;
-    border-color: palevioletred;
+    border-style: 2pt;
+    border-color: blueviolet;
     border-width: 2pt;
     border-radius: 2pt;
+}
+
+/* pseudo-class selector, text and display */
+.p:hover {
+    color: hsl(300, 33%, 33%, 1);
+    text-decoration: cornflowerblue;
+    text-align: right;
+    display: block;
+}
+
+/* id selector, display, size, and position */
+#footer {
+    height: 3 cm;
+    width: 7 cm;
+    max-height: 5 cm;
+    max-width: 10 cm;
+    display: inline-block;
+    position: static;
+}
+
+/* position */
+details {
+    position: absolute;
+    top: 40px;
+}
+
+/* universal selector */
+* {
+    opacity: 1;
+}
+
+/* attribute selector, media query */
+a[src="IMG_3445.mp4"] {
+    @media screen and (min-width: 500 px);
 }
